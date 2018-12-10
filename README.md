@@ -5,11 +5,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### System version that I am using
 opencv => 2.4.9
+
 gcc => 5.4
+
 yolov3
 
 ### Hardware
 Intel® Core™ i5-7500 CPU @ 3.40GHz × 4 
+
 8gb Ram
 
 ### Installing
