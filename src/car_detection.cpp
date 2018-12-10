@@ -14,12 +14,12 @@ car_detection::car_detection(float confThreshold,float nmsThreshold, int inpWidt
     car_detection::inpHeight = inpHeight;
    
     // Load names of classes
-    std::string classesFile = "/home/lamprosp/Desktop/lane_detection/YoloNet/coco.names";
+    std::string classesFile = "YoloNet/coco.names";
     std::ifstream ifs(classesFile.c_str());
     std::string line;
     while(std::getline(ifs,line)) car_detection::classes.push_back(line);
-    cv::String modelConfiguration ="/home/lamprosp/Desktop/lane_detection/YoloNet/yolov3.cfg";
-    cv::String modelWeights = "/home/lamprosp/Desktop/lane_detection/YoloNet/yolov3.weights";
+    cv::String modelConfiguration ="YoloNet/yolov3.cfg";
+    cv::String modelWeights = "YoloNet/yolov3.weights";
     car_detection::net = cv::dnn::readNetFromDarknet(modelConfiguration,modelWeights);
     car_detection::net.setPreferableBackend(cv::dnn::DNN_BACKEND_OPENCV);
     car_detection::net.setPreferableTarget(cv::dnn::DNN_TARGET_OPENCL);
