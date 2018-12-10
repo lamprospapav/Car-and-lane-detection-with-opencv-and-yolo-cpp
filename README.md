@@ -43,6 +43,6 @@ For your camera you need to calibrate it using your chessbord images into camera
 
 ![alt text](https://github.com/lamprospapav/Car-and-lane-detection-with-opencv-and-yolo-cpp/blob/master/car_lane_detection.png)
 
-I am running code with cpu and I need 80 ms for a frame. input image yolo is 224 x 224.
+I am running code with cpu and I need 80 ms for a frame. Input image yolo net : 224 x 224.
 In next version i will use darknet and gpu.
 
