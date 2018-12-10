@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 project(lane_car)
 #Import the headers
 include_directories(include)
+include_directories(YoloNet)
+include_directories(camera_cal)
 
 macro(use_cxx11)
   if (CMAKE_VERSION VERSION_LESS "3.1")
