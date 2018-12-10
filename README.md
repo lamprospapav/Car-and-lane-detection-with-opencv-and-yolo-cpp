@@ -41,17 +41,8 @@ make
 
 For your camera you need to calibrate it using your chessbord images into camera_cal directory.
 
-### Break down into end to end tests
-
 ![alt text](https://github.com/lamprospapav/Car-and-lane-detection-with-opencv-and-yolo-cpp/blob/master/car_lane_detection.png)
 
+I ran code with Cpu and I need 80 ms per frame for 224x224 input for yolo
+In next version i will use darknet and gpu.
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-#
