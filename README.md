@@ -16,29 +16,35 @@ Intel® Core™ i5-7500 CPU @ 3.40GHz × 4
 8gb Ram
 
 ### Installing
+git clone https://github.com/lamprospapav/Car-and-lane-detection-with-opencv-and-yolo-cpp.git
+cd Car-and-lane-detection-with-opencv-and-yolo-cpp/
+
+For yolo detection you need download yolo3.weights from wget https://pjreddie.com/media/files/yolov3.weights and copy it at YoloNet folder. In the next version i will train my own weights for car detection.
 
 mkdir build
 
+cd build
 
-And repeat
+cmake ..
 
-```
-until finished
-```
+make
 
-End with an example of getting some data out of the system or using it for a little demo
+cd ..
+
+cmake .
+
+make
+
+./lane_detection
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+For your camera you need to calibrate it using your chessbord images into camera_cal directory.
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+![alt text](https://raw.githubusercontent.com/lamprospapav/Car-and-lane-detection-with-opencv-and-yolo-cpp/blob/master/car_lane_detection.png
 
-```
-Give an example
-```
 
 ### And coding style tests
 
