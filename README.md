@@ -47,3 +47,4 @@ For your camera you need to calibrate it using your chessbord images into camera
 I am running code with cpu and I need 80 ms for a frame. Input image yolo net : 224 x 224.
 In next version i will use darknet and gpu.
 
+<iframe src="https://onedrive.live.com/embed?cid=D4A0BA22CBA5FF7A&resid=D4A0BA22CBA5FF7A%21253258&authkey=AG-h8zyq40e6FXk" width="320" height="180" frameborder="0" scrolling="no" allowfullscreen></iframe>
