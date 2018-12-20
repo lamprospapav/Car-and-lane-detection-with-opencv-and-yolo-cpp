@@ -17,6 +17,7 @@ Intel® Core™ i5-7500 CPU @ 3.40GHz × 4
 
 ### Installing
 git clone https://github.com/lamprospapav/Car-and-lane-detection-with-opencv-and-yolo-cpp.git
+
 cd Car-and-lane-detection-with-opencv-and-yolo-cpp/
 
 For yolo detection you need download yolo3.weights from wget https://pjreddie.com/media/files/yolov3.weights and copy it at YoloNet folder. In the next version i will train my own weights for car detection.
